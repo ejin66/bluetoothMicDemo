@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ejin.micbluetooth.MainActivity">
+
+    <Button
+        android:id="@+id/oldApi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="old api" />
+
+    <Button
+        android:id="@+id/newApi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="new api" />
+
+    <Button
+        android:id="@+id/startAudio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="start audio" />
+
+    <Button
+        android:id="@+id/stopAudio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="stop audio" />
+
+</LinearLayout>
